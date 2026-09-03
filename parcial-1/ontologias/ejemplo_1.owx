@@ -191,6 +191,26 @@
         <Class IRI="#Profesor"/>
         <NamedIndividual IRI="#profesor_004"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#profesor_001"/>
+        <NamedIndividual IRI="#Agentes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#profesor_002"/>
+        <NamedIndividual IRI="#IO_II"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#profesor_003"/>
+        <NamedIndividual IRI="#Topicos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imparte"/>
+        <NamedIndividual IRI="#profesor_004"/>
+        <NamedIndividual IRI="#ASE_III"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tieneCredito"/>
         <NamedIndividual IRI="#ASE_III"/>
@@ -294,12 +314,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#tieneNombreMAteria"/>
         <NamedIndividual IRI="#Topicos"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+        <Literal>Topicos Avanzados del Computo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tieneNombreMAteria"/>
         <NamedIndividual IRI="#Topicos"/>
-        <Literal>Topicos Avanzados del Computo</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tieneEdad"/>
@@ -337,11 +357,6 @@
         <Literal>Alejandro</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tieneNombreMAteria"/>
-        <NamedIndividual IRI="#profesor_002"/>
-        <Literal>IO_II</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#tieneNumeroDeCuentaEmpleado"/>
         <NamedIndividual IRI="#profesor_002"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">124312</Literal>
@@ -362,11 +377,6 @@
         <Literal>Rafael</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tieneNombreMAteria"/>
-        <NamedIndividual IRI="#profesor_003"/>
-        <Literal>Topicos</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#tieneNumeroDeCuentaEmpleado"/>
         <NamedIndividual IRI="#profesor_003"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2323444</Literal>
@@ -385,11 +395,6 @@
         <DataProperty IRI="#tieneNombre"/>
         <NamedIndividual IRI="#profesor_004"/>
         <Literal>Colin</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#tieneNombreMAteria"/>
-        <NamedIndividual IRI="#profesor_004"/>
-        <Literal>ASE_III</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tieneNumeroDeCuenta"/>
