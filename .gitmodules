@@ -1,0 +1,3 @@
+[submodule "parcial-3/agente-carga3"]
+	path = parcial-3/agente-carga3
+	url = https://github.com/ManuelRuizJ/agente-carga-academica.git
